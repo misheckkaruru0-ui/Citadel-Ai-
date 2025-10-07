@@ -1,8 +1,9 @@
 fastapi
 uvicorn
-pandas
+pydantic
 numpy
+scipy
+pandas
 xgboost
-ta
 joblib
-requests
+ta
