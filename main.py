@@ -6,7 +6,7 @@ import numpy as np
 app = FastAPI()
 
 # Load your trained ML model
-model = joblib.load("model.pkl")
+model = joblib.load("citadel_gold_elite_xgb.pkl")
 
 class InputData(BaseModel):
     features: list
